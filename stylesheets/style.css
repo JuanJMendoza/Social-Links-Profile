@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+  min-height: 100vh;
+  padding-top: 24px;
+  gap: 24px;
+}
+h1,
+h2,
+p {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+p {
+  transition: color 500ms linear;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  width: 384px;
+  height: 611px;
+  padding: 40px;
+  gap: 24px;
+}
+.profile-img {
+  border-radius: 100%;
+  width: 88px;
+  height: 88px;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.name {
+  font-size: 24px;
+}
+.location {
+  color: #c4f82a;
+}
+.about-me {
+  font-weight: 400;
+}
+.link-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.link {
+  background-color: #333333;
+  border-radius: 8px;
+  width: 304px;
+  height: 45px;
+  padding: 12px;
+  transition: background-color 500ms linear;
+}
+.link:hover {
+  background-color: #c4f82a;
+}
+.link:hover p {
+  color: black;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
